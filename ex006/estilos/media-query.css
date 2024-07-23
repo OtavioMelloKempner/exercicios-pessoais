@@ -7,7 +7,10 @@
     main{
         width: 90%;
         height: 90%;
+        
+        
     }
+   
     .imagem{
         background-size: cover;
         background-position: left center;
@@ -62,6 +65,7 @@
         border-bottom-right-radius: 100%;
         border-top-left-radius: 40%;
     }
+    
     aside >.titulo{
        margin-top: 30px;
        font-size: 2em;

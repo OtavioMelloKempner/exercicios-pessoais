@@ -22,6 +22,8 @@ main{
     width: 90vw;
     height: 555px;
     border-radius: 50px;
+    transition: width .3s, height .3s;
+    transition-timing-function: ease;
 
 }
 .imagem{
@@ -35,6 +37,7 @@ main{
     border-bottom-left-radius: 0px;
     border-bottom-right-radius: 0px;
     border: none;
+    
 }
 aside.formulario{
     display: flex;
