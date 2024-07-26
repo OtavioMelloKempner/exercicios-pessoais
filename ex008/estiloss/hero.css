@@ -1,16 +1,22 @@
 @charset "UTF-8";
-.hero__left, .hero__right{
-}
+
 .hero__left{
     flex: 1;
+    margin-left: 10%;
+    
 }
 .hero__right{
     flex: 1;
+
 }
 .hero{
     display: flex;
     padding-inline: 1.25rem;
-    padding-block: 1.25rem;
+    padding-top: 6rem;
+    overflow: hidden;
+    max-width: 1280px;
+    margin: auto;
+
     
 }
 .hero__title{
@@ -27,6 +33,7 @@
     opacity: 0.6;
     padding-block: 30px;
     line-height: calc(1em + 0.5rem);
+    max-width: 50ch;
 }
 .hero__button{
     font-size: 1rem;
@@ -34,4 +41,9 @@
     color: white;
     border-radius: 6px;
     background: linear-gradient(to right, #DF5176, #501A7B);
+}
+/*Hero RIGHT*/
+.hero__right > img{
+    transform: rotate(15deg);
+    max-width: 400px;
 }
