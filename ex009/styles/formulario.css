@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+form{
+    padding-top: 40px;
+}
+.div__formulario{
+    width: 100%;
+}
+label{
+    margin-left: 20px;
+    color: black;
+    
+}
+input{
+
+    width: 90%;
+    height: 25px;
+    margin-block: 2%;
+    margin-inline: 10px;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.603);
+}

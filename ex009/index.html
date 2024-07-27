@@ -1,11 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="styles/geral.css">
     <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/formulario.css">
+    <link rel="stylesheet" href="styles/media-query.css">
 </head>
 <body>
         <main>
@@ -13,9 +15,21 @@
                 <div class="div__left">
                     <h1 class="div__title">Bem-vindo de volta!</h1>
                     <h3 class="div__subinformacao">Faça login para acessar sua conta e continuar sua jornada</h3>
+                    <form action="principal.html" method="post" class="div__form">
+                        <p class="form__p1">
+                            <label for="iname">Nome:</label>
+                            <input type="text" name="name" id="iname">
+                        </p>
+                        <p class="form__pg2">
+                            <label for="isenha">Senha:</label>
+                            <input type="password" name="senha" id="isenha">
+                        </p>
+                      
+
+                    </form>
                 </div>
                 <div class="div__right">
-                
+                    <img src="./imagens/pexels-kubiceknov-924824.jpg" alt="">
                 </div>
             </article>
         </main>
