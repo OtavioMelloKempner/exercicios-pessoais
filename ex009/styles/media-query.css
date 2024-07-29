@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+@media screen and (width > 768px) {
+    .div__right > img{
+        padding-left: 10px;
+        border-radius: 5%;
+        border-top-left-radius: 40%;
+        border-bottom-left-radius: 40%;
+    }
+    .div__title{
+        padding-top: 30px;
+        padding-bottom: 10px;
+    }
+    
+    form{
+        width: 75%;
+        font-family: Arial, Helvetica, sans-serif;
+        padding-left: 10%;
+        margin-bottom: 25%;
+        
+    }
+    input{
+        font-family: Arial, Helvetica, sans-serif;
+        height: 30px;
+    }
+    input[type="submit"], input[type="reset"] {
+        width: 20%;
+        
+    }
+    input[type="submit"]{
+        margin-left: 24%;
+    }
+    label{
+        font-size: 1.2em;
+    }
+   
+}

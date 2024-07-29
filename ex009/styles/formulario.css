@@ -2,21 +2,34 @@
 
 form{
     padding-top: 40px;
+    margin-left: 10px;
+    padding-bottom: 20px;
+
 }
 .div__formulario{
     width: 100%;
 }
 label{
-    margin-left: 20px;
     color: black;
+    margin-left: 20px;
     
 }
 input{
-
     width: 90%;
     height: 25px;
     margin-block: 2%;
     margin-inline: 10px;
     border-radius: 5px;
     border: 1px solid rgba(0, 0, 0, 0.603);
+}
+input[type="submit"], input[type="reset"] {
+    width: 25%;
+    height: 38px;
+    background-image: linear-gradient(to right, #932ada, rgb(255, 115, 139));
+    font-size: 1rem;
+    color: white;
+    border-radius: 15%;
+    border: none;
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
 }
