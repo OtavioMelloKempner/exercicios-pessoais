@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+main{
+    display: flex;
+    flex-flow: column wrap;
+    height: 80%;
+    margin-inline: 10%;
+
+}
+article{
+    border: 1px solid blue;
+    flex: 1;
+}
+div{
+}

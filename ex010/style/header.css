@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+header{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-inline: 5%;
+    border: 1px solid red;
+    height: 11vh;
+    color: inherit;
+}
+nav > ul > li{
+    display: inline-flex;
+    padding: 10px;
+    
+}
