@@ -2,14 +2,51 @@
 
 main{
     display: flex;
-    flex-flow: column wrap;
-    height: 80%;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    margin-top: 5%;
+    border: 1px solid green;
     margin-inline: 10%;
 
 }
-article{
-    border: 1px solid blue;
+
+.main__article{
+    border: 1px solid blueviolet;
+    height: 62vh;
     flex: 1;
 }
-div{
+.main__article{
+    text-align: center;
+    
+}
+
+.main__article > div > h3{
+    font-size: 3.2em;
+    padding-block: 8px;
+}
+.main__article > div > p{
+    padding-inline: 5%;
+    padding-block: 30px;
+    text-align: justify;
+    font-size: 0.8em;
+    line-height: 20px;
+}
+
+
+
+/*Lado das imagens*/
+#article__img{
+    height: 62vh;
+    flex: 1;
+}
+
+div#bg__img{
+    height: 100%;
+    width: 100%;
+    background: url(../imagens/brooke-lark-C1fMH2Vej8A-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
 }
