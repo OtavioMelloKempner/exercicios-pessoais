@@ -7,8 +7,8 @@
     
 }
 body{
-    
-    height: 100vh;
+    background-image: linear-gradient(290deg, #540a5fc7, #141614 );
+   
     color: white;
     background-color: #141614;
 }

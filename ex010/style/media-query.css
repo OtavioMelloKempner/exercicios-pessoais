@@ -1,6 +1,11 @@
 @charset "UTF-8";
 
-@media screen and (width < 384px){
+@media screen and (width < 457px){
+    body{
+        background-image: linear-gradient(290deg, #540a5fc7, #141614 );
+        color: white;
+        background-color: #141614;
+    }
     header{
         display: flex;
         flex-flow: row wrap;
@@ -8,11 +13,13 @@
     }
     header > h1{
         margin-block: 10px;
+        margin-top: 20px;
     }
   
     nav > ul > li {
         padding: 10px;
     }
+   
 }
 
 
@@ -25,8 +32,12 @@
         height: auto;
         margin-top: 30%;
     }
+    .main__article{
+        
+    }
     .main__article > div > p {
         font-size: 0.92em;
+        margin-bottom: 50px;
     }
     #article__img{
        width: 100%;
@@ -40,4 +51,9 @@
     }
    
    
+}
+@media screen and (width > 768px){
+    body{
+        height: 100vh;
+    }
 }
