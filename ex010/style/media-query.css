@@ -33,7 +33,9 @@
         margin-top: 30%;
     }
     .main__article{
-        
+        border-top-right-radius: 10%;
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 0px;
     }
     .main__article > div > p {
         font-size: 0.92em;
